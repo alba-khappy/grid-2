@@ -1,0 +1,76 @@
+@import "general.scss";
+
+.main--container {
+    display: grid;
+    gap: 50px 40px;
+    grid-template:
+     "h1 h1 i1 i1 i1" auto
+     "p1 p1 i1 i1 i1" auto
+     "p2 p2 i1 i1 i1" auto
+     "p3 p3 p4 p4 i2" auto
+     "i3 i3 i4 i4 i5" auto
+     "p5 p5 p6 p6 i6" auto
+     "i7 i7 i7 i7 i7" auto
+     /
+     1fr 1fr 1fr 1fr 1fr
+}
+
+.main--h1 {
+    grid-area: h1;
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.main--img1 {
+    grid-area: i1;
+}
+
+.main--p1 {
+    grid-area: p1;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.main--p2 {
+    grid-area: p2;
+}
+
+.main--p3 {
+    grid-area: p3;
+}
+
+.main--p4 {
+    grid-area: p4;
+}
+
+.main--p5 {
+    grid-area: p5;
+}
+
+.main--p6 {
+    grid-area: p6;
+}
+
+.main--img2 {
+    grid-area: i2;
+}
+
+.main--img3 {
+    grid-area: i3;
+}
+
+.main--img4 {
+    grid-area: i4;
+}
+
+.main--img5 {
+    grid-area: i5;
+}
+
+.main--img6 {
+    grid-area: i6;
+}
+
+.main--img7 {
+    grid-area: i7;
+}

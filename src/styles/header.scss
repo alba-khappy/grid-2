@@ -1,0 +1,34 @@
+@import "general.scss";
+
+.header {
+  margin-bottom: 155px;
+}
+
+.header--container {
+    display: grid;
+    grid-template-columns: 230px 1fr;
+    grid-column-gap: 50px;
+    box-sizing: border-box;
+    min-height: 72px;
+    align-items: end;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.header--ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header--li {
+    margin-right: 30px;
+
+    a {
+      color: #000000;
+    }
+  }
+  
+.header--li:last-child {
+    margin-right: 0;
+  }
